@@ -23,10 +23,13 @@
     "clean": "ets clean"
   },
   "dependencies": {
+    "@types/superagent": "^4.1.7",
+    "axios": "^0.19.2",
     "egg": "^2.6.1",
     "egg-cors": "^2.2.3",
     "egg-scripts": "^2.6.0",
     "mysql": "^2.18.1",
+    "superagent": "^5.2.2",
     "uuid": "^7.0.1"
   },
   "devDependencies": {

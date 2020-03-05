@@ -20,4 +20,10 @@ export default (app: Application) => {
     router.post(`${mysqlPath}/execSql`, controller.mysql.execSql)
     // dev
     router.get(`${mysqlPath}/users`, controller.mysql.users)
+    // download
+    router.post(`/dms/download`, controller.download.download)
+    router.get(`/dms/download2`, controller.download.download2)
+    router.get(`/dms/tasks`, controller.download.tasks)
+    // js
+    router.get(`/data`, controller.data.index)
 }
